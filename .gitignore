@@ -6,10 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
-phantomjs.exe
-phantomjs
-phantomjs-2.1.1-windows/
-phantomjs-2.1.1-windows.zip
+chromedriver.exe
 
 # Distribution / packaging
 .Python
