@@ -33,11 +33,11 @@ if not os.path.isfile('chromedriver.exe') or not os.path.isfile('chromedriver'):
     if inPath == 0:
         try:
             if os.name == 'nt':
-                chromeDL = urlopen("https://chromedriver.storage.googleapis.com/2.32/chromedriver_win32.zip")
-                url = "https://chromedriver.storage.googleapis.com/2.32/chromedriver_win32.zip"
+                chromeDL = urlopen("https://chromedriver.storage.googleapis.com/2.33/chromedriver_win32.zip")
+                url = "https://chromedriver.storage.googleapis.com/2.33/chromedriver_win32.zip"
             else:
-                chromeDL = urlopen("https://chromedriver.storage.googleapis.com/2.32/chromedriver_linux64.zip")
-                url = "https://chromedriver.storage.googleapis.com/2.32/chromedriver_linux64.zip"
+                chromeDL = urlopen("https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip")
+                url = "https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip"
         except HTTPError, e:
             print "HTTP Error:", e.code, url
         except URLError, e:
